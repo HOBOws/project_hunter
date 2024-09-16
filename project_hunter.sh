@@ -48,7 +48,7 @@ function dependencies() {
 }
 dependencies
 
-function splunk_forwarder () { #asks if splunk is neede. if so, adds the VT response for confirmed malware and all md5sum to be forwarded to splunk 
+function splunk_forwarder() { #asks if splunk is neede. if so, adds the VT response for confirmed malware and all md5sum to be forwarded to splunk 
     echo -e "This script can forward events to splunk, would you like to configure this option? (press no if it is already configured or you do not wish to use this).\n[y]es\n[ENTR] move on!"
     read -s  -p ":: " SF
     if [ $SF == "y" ]; then
