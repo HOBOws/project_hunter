@@ -1,4 +1,4 @@
-This is a student IDS with 4 functions:
+This is a student IDS with 3 functions:
 1. live monitor network traffic for IoC by utilizing Tshark.
 2. documenting network traffic with Tshark.
 3. extracting files passing through the network by utilizing CupTipper..
