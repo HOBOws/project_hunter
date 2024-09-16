@@ -1,3 +1,5 @@
+#please run in a dedicated directory
+
 This is a student IDS with 3 main functions:
 1. live monitor network traffic for IoC by utilizing Tshark.
 2. documenting network traffic with Tshark.
